@@ -1,0 +1,29 @@
+.cardapio {
+    width: 800px;  /* Ajuste a largura conforme necessário */
+    margin: 0 auto;  /* Centraliza o cardápio na tela */
+  }
+  
+  .linha-pizzas {
+    display: flex;  /* Organiza as pizzas em linha */
+    justify-content: space-between;  /* Distribui as pizzas uniformemente */
+  }
+  
+  .pizza {
+    width: 400px;  /* Ajuste a largura da pizza conforme necessário */
+    margin: 10px;  /* Adiciona espaço entre as pizzas */
+    text-align: center;  /* Centraliza o conteúdo da pizza */
+  }
+  
+  .pizza img {
+    display: block;  /* Exibe a imagem como bloco */
+    margin: 0 auto;  /* Centraliza a imagem na pizza */
+
+  }
+  
+  button#Pedir {
+    margin: 10px;
+    background-color: #8E2424;
+    color: #FFF;
+  }
+
+  

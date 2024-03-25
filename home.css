@@ -13,6 +13,8 @@
   body {
     width: 100%;
     height: 100vh;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFF;
   }
   
   nav {
@@ -20,6 +22,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0;
+    background-color: white;
   }
   
    a {
@@ -42,6 +45,37 @@
     background-color: #8E2424;
     color: #FFF;
   }
+
+  
+body{
+ background-image: url(img/teste2.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ 
+}
+button#c{
+
+    background-color: #ffffff;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Quero{
+  padding: 65px;
+}
+
+
+
+
+
+
+
+
 
    
     
