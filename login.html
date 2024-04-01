@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <nav>  <!--ajuda a indicar que esse bloco de conteúdo está relacionado à navegação no site.-->
+    <nav>  
         <img src="marca.png" width="200"  alt="">
         <div class="links">
             <a href="index.html">Home</a>
@@ -20,21 +20,23 @@
             <button> 
                 <a href="login.html">Entrar</a>
             </button>
-            <button id="signUp"> Cadastrar</button> <!--Atributo no botão-->
+            <button id="signUp"> Cadastrar</button> 
         </div>  
     </nav>
     
    
-    <center>
-  <div class="container">   
-    <form action="" >
-        <h1>Login</h1>
-        <label for="">E-mail</label>
-        <input type="email"> <br>
-        <label for="">Senha</label>
-        <input type="password" name="" id="">
-    </form>
-</center>
+    <div class="container">
+        <div class="login-form">
+          <h1>Login</h1>
+          <form action="#">
+            <input type="text" name="username" placeholder="Usuário">
+            <input type="password" name="password" placeholder="Senha">
+            <button type="submit">Entrar</button>
+          </form>
+          <a href="#">Esqueceu sua senha?</a>
+          <p>Ainda não tem conta? <a href="#">Cadastre-se</a></p>
+        </div>
+      </div>
 </div>
 </body>
 </html>

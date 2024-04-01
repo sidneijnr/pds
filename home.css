@@ -1,83 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-:root {
-    --text-color: #37393d;
-  }
-  
-  * {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    height: 100vh;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #FFF;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0;
-    background-color: white;
-  }
-  
-   a {
-    color: var(--text-color);
-     text-decoration: none;
-      margin-right: 2rem;
-  }
-  button {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    background: none;
-    color: var(--text-color);
-    font-size: 0.9rem;
-  }
-  
-  button#signUp {
-    background-color: #8E2424;
-    color: #FFF;
-  }
-
-  
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --red:#d63a25;
+    --white:#fff;
+    --dark:#1e1c2a;
+}
 body{
- background-image: url(img/teste2.avif);
- background-repeat: no-repeat;
- background-size: cover;
- 
- 
-}
-button#c{
+    color: var(--dark);
+    background: var(--white);
+    border-bottom: 100px;
 
-    background-color: #ffffff;
-    color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+
 }
 
-.Quero{
-  padding: 65px;
+.home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10% 0 10%; /* Adicionando 50px de padding no topo */
 }
 
-
-
-
-
-
-
-
-
-
-   
+.home-text{
+    max-width: 37rem;
+}
+.home-text .text-h4{
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+}
+.home-text .text-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.home-text p{
+    margin-bottom: 4rem;
+}
+.home-btn{
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.home-btn:hover{
+    background: #fc4c35;
+}
+.home-img img{
+    width: 100%;
     
+}
+
 
