@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', serif;
+  }
+
+  p{
+    font-family: 'Montserrat', serif;
+  }
+  
+
+.oi{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.pizza{
+    border-radius: 10px;
+}
+
+p{
+    font-size: 19px;
+    text-align: justify;
+}
